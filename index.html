@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NEON FRACTURE | System Architect</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap');
+      
+      html, body, #root {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: 'Rajdhani', sans-serif;
+        background-color: #05050a;
+        color: #e0e0e0;
+        overflow-x: hidden;
+        overflow-y: hidden; /* Prevent scroll on game view */
+      }
+      
+      .font-mono {
+        font-family: 'Share Tech Mono', monospace;
+      }
+
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0a0a10;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #3b82f6;
+        border-radius: 3px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #2563eb;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "framer-motion": "https://esm.sh/framer-motion@^12.26.1?deps=react@19.2.3",
+    "@react-three/fiber": "https://esm.sh/@react-three/fiber@^9.5.0?deps=three@0.182.0,react@19.2.3,react-dom@19.2.3",
+    "@react-three/drei": "https://esm.sh/@react-three/drei@^10.7.7?deps=three@0.182.0,react@19.2.3,react-dom@19.2.3,@react-three/fiber@9.5.0",
+    "three": "https://esm.sh/three@^0.182.0",
+    "@react-three/postprocessing": "https://esm.sh/@react-three/postprocessing@^3.0.4?deps=three@0.182.0,react@19.2.3,react-dom@19.2.3,@react-three/fiber@9.5.0",
+    "postprocessing": "https://esm.sh/postprocessing@^6.36.6?deps=three@0.182.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
